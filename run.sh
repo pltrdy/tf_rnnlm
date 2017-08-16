@@ -9,7 +9,7 @@ action="$1"
 DATA_PATH="./data"
 LOSS='sampledsoftmax'
 LOG_RATE=3
-BATCH_SIZE=32
+BATCH_SIZE=20
 NUM_SAMPLES=1024
 
 if ! [ -d "$DATA_PATH" ]; then
